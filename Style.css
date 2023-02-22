@@ -1,0 +1,220 @@
+html{
+    
+    background-image: linear-gradient(#dd615a,#884188);
+    
+    
+}
+
+body{
+    background-image: url(Kurs_Materialien/images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.container{
+    width: 1024px;
+    
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-bottom: 5%;
+    min-height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid white;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.cards{
+    
+    text-align: center;
+    display: flex;      /*drehen der drei boxen damit die nebeneinander liegen*/
+    justify-content: space-between; /*flexbox */
+}
+.card1{
+    background-image: url(Images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow:3px 5px 10px rgba(0, 0, 0, 0.65);
+}
+
+.card2{
+    background-image: url(Images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow:3px 5px 10px rgba(0, 0, 0, 0.65);
+    }
+.card3{
+    background-image: url(Images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow:3px 5px 10px rgba(0, 0, 0, 0.65);
+}
+.herobox1{
+    flex:2;
+    padding-right: 7%;
+}
+
+.herobox2{
+    flex: 1;
+}
+
+h1{
+    font-size: 3.1rem;
+    color: rgb(47, 9, 9);
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 5%;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.472);
+}
+h2{
+    font-size: 2rem;
+    color: rgb(207, 207, 207);
+    font-family: 'Playfair Display', serif;
+    margin-top: 5%;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.cards p {
+    color: rgb(255, 255, 255);
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+
+.cards i{
+    
+    font-size: 70px;
+    color:rgba(255, 255, 255, 0.603);
+}
+.cards a{
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+
+}
+.card1,.card2,.card3{
+    padding:20px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.mybutton{
+    background-color: rgb(245, 245, 245);
+    color: rgb(47, 9, 9);
+    
+    
+    padding: 11px  25px;
+    display: inline-block;
+    margin-top: 2%;
+    border-radius: 5%;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.65);
+}
+
+.navbutton{
+    font-family: 'Playfair Display', serif;
+    padding:11px 12px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px ;
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 50px;
+    
+}
+.navbutton:hover .dropdown{
+    display:block;  
+}
+
+
+.dropdown .navbutton{
+    width: 200px;
+    background-color:rgb(219, 219, 219) ;  
+}
+.dropdown .navbutton a{
+    color:#FA4083;
+    
+}
+.testomonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.tbox{
+    width: 47%;
+    color: rgb(224, 224, 224);
+    padding: 40px;
+    border: 1px solid rgb(224, 224, 224);
+    box-sizing: border-box;
+    margin-top: 5%;
+    
+}
+.mybutton:hover{
+    background-color: rgb(93, 93, 93);
+    transition: 1s;
+    color: white;
+}
+
+.tbox :last-child{
+    font-size: 16px;
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+}
+.inputwrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type=text] ,input[type=email], textarea{
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.newline{
+    display: block;
+    margin-bottom: 5px;
+}
+.margin-right-a{
+    margin-right: 20px;
+}
+select{
+    font-family: 'Roboto', sans-serif;
+}
